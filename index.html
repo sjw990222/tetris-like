@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>TETRIS-LIKE</title>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700;900&display=swap" rel="stylesheet">
+	<style type="text/css">
+		html{font-family: 'Noto Sans KR', sans-serif;
+		background: rgb(6,43,110);
+		background: linear-gradient(90deg, rgba(6,43,110,1) 0%, rgba(19,30,145,1) 52%, rgba(62,6,117,1) 100%);
+		scroll-behavior: smooth;}
+		body,h3,h2,h1,ul,li{margin:0;
+			padding: 0;}
+		section{width: 900px; 
+			padding-bottom: 30px;
+			padding-top: 50px;
+			margin: auto;
+			padding-left: 5px;
+			padding-right: 5px;
+			display: flex;}
+		.col1{width: 900px;
+			margin:0px 5px;}
+		.col2{width: 440px;
+			margin:0px 5px;}
+		.col3{width: 540px;
+			margin:0px 5px;}
+		.col4{width: 340px;
+			margin:0px 5px;}
+		nav{height: 40px;
+			margin-bottom: 150px;
+			font-weight: 500;}
+		nav ul{width:600px;
+			height: 40px;
+			float:right;}
+		nav ul li{list-style-type: none;
+			width:25%;
+			float:left;
+			text-align: center;
+			line-height: 50px;}
+		nav ul li a{display: block;
+			color: #BDBDBD;
+			text-decoration: none;}
+		a:link{color: #DB00B9;
+			text-decoration: none;}
+		a:visited{color: #DB00B9;
+			text-decoration: none;}
+		a:hover{color: #BDBDBD;
+			text-decoration: underline;}
+		h1{font-weight: 900;
+			text-align: left;
+			line-height: 120%;
+			font-size: 10.5em;
+			margin-top: 40px;
+			margin-bottom: 80px;
+			margin-left: 60px;}
+		h2{text-align: right;
+			font-weight: 500;
+			color:#BDBDBD;
+			font-size: 3.2em;
+			line-height: 150%;
+			margin-right: 60px;
+			margin-bottom: 20px;}
+		h3{font-weight: 700;
+			font-size:6em;
+			letter-spacing: -1px;
+			color: #DB00B9;
+			margin-bottom: 100px;
+			text-align: center;
+			word-break: keep-all;
+			line-height: 170%;}
+		h4{font-weight: 700;
+			font-size:2em;
+			letter-spacing: -1px;
+			color: #DB00B9;
+			margin-bottom: 50px;
+			text-align: center;
+			background-color: #BDBDBD;}
+		h5{font-weight: 500;
+			font-size:2em;
+			letter-spacing: -1px;
+			color: #BDBDBD;}
+		section p{font-weight: 300;
+			font-size: 1em;
+			letter-spacing: -0.25px;
+			word-spacing: -0.2px;
+			line-height: 175%;
+			color: white;
+			margin-bottom: 30px;
+			word-break: keep-all;}
+		footer{width: 100%;
+			margin-top: 150px;
+			height: 150px;
+			text-align: center;
+			color: white;}
+		img{display: block;
+			width: 90%;
+			margin:auto;
+			margin-bottom: 50px;}
+		.link{background-color:black;
+			font-weight: 900;
+			font-size: 2em;
+			text-align: right;}
+		.info{font-weight: 900;
+		 font-size: 1.2em;}
+	</style>
+</head>
+
+<body>
+	
+	<header>
+		<h1 id="navigation">
+			<a href="index.html">
+				TETRIS-
+				<br>
+				LIKE
+			</a>
+		</h1>
+		<h2> 
+			▽▼ 낙하물 퍼즐 ▼▽
+		</h2>
+	</header>
+	<nav>
+		<ul>
+			<li>
+				<a href="#a">ABOUT</a>
+			</li>
+			<li>
+				<a href="#b">TETRIS</a>
+			</li>
+			<li>
+				<a href="#c">HISTORY</a>
+			</li>
+			<li>
+				<a href="#d">MATCH-3</a>
+			</li>
+		</ul>
+	</nav>
+
+	<section id="a">
+		<h3 class="col1">
+			▽▼
+			<br>
+			낙하물 퍼즐
+			<br>
+			(Tetris-like)
+			<br>
+			▼▽
+		</h3>
+	</section>
+	<section>
+		<div class="col3">
+			<img src="tetrislike.png">
+		</div>
+		<div class="col4">
+			<p>
+				낙하물 퍼즐이란, 위에서 아래로 떨어지는 블록을 규칙에 맞춰 없애는 퍼즐이다. 장르의 기원은 테트리스이며 영어로는 ‘Falling Object Puzzle’ 또는 ‘Tetris-like’라 한다.
+			</p>
+			<p>
+				이것이 변형되어 아래에서 위로 블록을 쏘아올리는 형식의 게임이 만들어지기도 했으며 이후에는 매치 3 등 다른 퍼즐 게임 장르로 파생되기도 한다.
+			</p>
+		</div>
+	</section>
+
+	<section id="b">
+		<h3 class="col1">
+			▽▼
+			<br>
+			퍼즐 게임의
+			<br>
+			혁명
+			<br>
+			▼▽
+		</h3>
+	</section>
+	<section>
+		<div class="col2">
+			<br>
+			<br>
+			<br>
+			<br>
+			<img src="tetris4.png">
+		</div>
+		<div class="col2">
+		<p>
+			테트리스의 형식과 규칙은 넙치가 수족관에서 다른 넙치들과 겹치지 않고 바닥으로 내려오는 모습을 본땄다. 그리고 블록은 5개의 정사각형으로 이루어진 '펜토미노'를 4개의 정사각형으로 단순화하여 만들어졌다.
+		</p>
+		<p>
+			이전 퍼즐게임들은 미로찾기, 카드게임 등 탁상에서 즐기던 퍼즐들을 모니터 속에 구현했던 것이었다. 그러나 테트리스의 줄을 채울 때 마다 그 줄을 없애는 규칙은 탁상 퍼즐에서는 구현할 수 없다. 즉, 전자 게임만이 가질 수 있는 특징을 가진 것이다.
+		</p>
+		<p>
+			남녀노소 누구나 쉽게 즐길 수 있는 쉬운 규칙의 게임이지만 점점 갈 수록 어려워지는 레벨 디자인 또한 테트리스의 특징이다. 이런 정교한 레벨 디자인은 수많은 게임들의 교과서가 되었다. 남녀노소 누구나 즐길 수 있지만 레벨 디자인으로 인해 프로게이머가 존재하여 매년 세계 대회가 열리기도 한다.
+		</p>
+		</div>
+	</section>
+
+	<section id="c">
+		<h3 class="col1">
+			▽▼
+			<br>
+			HISTORY
+			<br>
+			▼▽
+		</h3>
+	</section>
+	<section>
+		<h4 class="col1">
+			▽▼ 테트리스 ▼▽
+		</h4>
+	</section>
+	<section>
+		<div class="col4">
+			<br>
+			<img src="tetris2.png">
+		</div>
+		<div class="col3">
+			<p class="info">
+				“퍼즐 게임이 가야하는 길을 제시한”
+			</p>
+			<p>
+				출시년도: 1984년
+				<br>
+				<br>
+		 		1984년 러시아의 프로그래머 알렉스 파지노프가 개발한 게임이다. 왼쪽 화면의 건축물은 모스크바의 성 바실리 성당이다. 게임 시리즈 세계 판매량 8위이며 출시 이후 낙하물 퍼즐이라는 장르가 개척되었다. 미국에서 테트리스가 큰 인기를 얻자 러시아의 음모가 아니냐는 소문이 돌기도 하였다. 하지만 거짓이었다.
+			</p>
+		</div>
+	</section>
+	<section>
+		<h4 class="col1">
+			▽▼ 칼럼스 ▼▽
+		</h4>
+	</section>
+	<section>
+		<div class="col4">
+			<br>
+			<img src="columns2.png">
+		</div>
+		<div class="col3">
+			<p class="info">
+				“내가 진짜 헥사 원조”
+			</p>
+			<p>
+				출시년도: 1990년
+				<br>
+				<br>
+				닌텐도가 테트리스의 독점 라이센스를 얻은 후, 세가는 자사에서 테트리스를 대신할 퍼즐 게임을 만들었고 그것이 바로 칼럼스이다. 같은 블럭이 가로, 세로 혹은 대각선으로 3개 이상 모이면 사라진다. 국내에서는 헥사와 비슷한 게임이라고 알려지기도 했지만 사실 헥사의 원조 게임이다.
+			</p>
+		</div>
+	</section>
+	<section>
+		<h4 class="col1">
+			▽▼ 뿌요뿌요 ▼▽
+		</h4>
+	</section>
+	<section>
+		<div class="col4">
+			<br>
+			<img src="puyopuyo2.png">
+		</div>
+		<div class="col3">
+			<p class="info">
+				“뿌요는 평범한 블록이 아냐..”
+			</p>
+			<p>
+				출시년도: 1991년
+				<br>
+				<br>
+				본래 자사 롤플레잉 게임의 스핀오프 버전이었으나 뿌요뿌요가 더욱 흥행하였다. 뿌요라 불리는 떨어지는 블럭을 같은 색끼리 맞춰 없애는 게임이다. 우리나라에는 '동글이 퇴치작전'이라는 이름으로 수입되었다. 2020년 12월 8일 미국에서 뿌요뿌요 테트리스 2가 발매될 예정이다. 한국에서는 이틀 뒤인 12월 10일에 발매된다.
+			</p>
+		</div>
+	</section>
+	<section>
+		<h4 class="col1">
+			▽▼ 헥사 ▼▽
+		</h4>
+	</section>
+	<section>
+		<div class="col4">
+			<img src="hexa2.png">
+		</div>
+		<div class="col3">
+			<p class="info">
+				“사실은 칼럼스가 원조입니다.”
+			</p>
+			<p>
+				출시년도: 199?년
+				<br>
+				<br>
+				우리나라에서 출시된 오락실용 게임이다. 가로, 세로, 대각선으로 같은 블럭이 3개 이상일 때 사라지는 칼럼스와 같은 규칙을 가지고 있다. 칼럼스의 규칙 뿐만 아니라 여러 다른 게임에서 여러가지를 조금씩 따라한 게임이다. 칼럼스가 국내에 알려지기 전 먼저 유행하여 비슷한 류의 게임은 모두 헥사가 원조라고 알려졌다.
+			</p>
+		</div>
+	</section>
+	<section>
+		<h4 class="col1" id="d">
+				▽▼ MATCH-3 ▼▽
+		</h4>
+	</section>
+	<section>
+		<div class="col4">
+			<img src="match3.png">
+		</div>
+		<div class="col3">
+			<p class="info">
+				“새로운 장르의 시작”
+			</p>
+			<p>
+				테트리스의 성공과 칼럼스의 등장은 새로운 퍼즐 게임 장르의 탄생으로 이어졌다. 바로 애니팡으로 잘 알려진 매치 3 게임 장르이다. 아래의 버튼을 클릭하여 매치 3의 역사와 추천 게임을 확인해보자.
+			</p>
+			<br>
+			<br>
+			<a href="https://sjw990222.github.io/match3/" class="link">
+				MATCH-3◀◁
+			</a>
+		</div>
+	</section>
+
+	<footer>
+		<p>17100864 신지원
+		<br>
+		<a href="#navigation">맨 위로</p>
+	</footer>
+
+</body>
+</html>
